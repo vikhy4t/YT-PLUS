@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>YT Premium</title>
+<link href="popup.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+</head>
+<body>
+<div class="floating-controls">
+<button aria-label="Toggle Background Video" class="floating-btn" id="videoToggle" title="Toggle Background Video"></button>
+<button aria-label="Toggle Sound" class="floating-btn" id="soundToggle" title="Toggle Sound"></button>
+</div>
+
+
+<video autoplay="" id="bg-video" loop="" muted="" playsinline="" preload="auto">
+<source src="videos/background.mp4" type="video/mp4"/>
+</video>
+
+<div class="video-overlay"></div>
+
+<div class="background-blur"></div>
+<main class="container">
+
+<header class="header">
+<div class="logo-wrapper">
+<div class="play-logo">
+<img alt="Extension Logo" src="images/icon128.png"/>
+</div>
+</div>
+<h1 class="title">
+<span class="shimmer">
+                YT Premium Bypass
+            </span>
+</h1>
+<p class="subtitle">
+            Fast • Lightweight • Privacy
+        </p>
+</header>
+
+<section class="card">
+<div class="card-header">
+<div class="status">
+<div class="status-dot" id="statusDot"></div>
+<div>
+<h3>Premium ++</h3>
+<span id="stateText">Active</span>
+</div>
+</div>
+<div class="badge">
+                LIVE
+            </div>
+</div>
+<div class="toggle-row">
+<div>
+<div class="toggle-title">
+                    Enable Ad Blocker
+                </div>
+<div class="toggle-description">
+                    Blocks video ads and popups
+                </div>
+</div>
+<label class="switch">
+<input checked="" id="enableToggle" type="checkbox"/>
+<span class="slider"></span>
+</label>
+</div>
+</section>
+<!-- Statistics -->
+<section class="stats-grid">
+<div class="stat-card">
+<div class="stat-icon">🚫</div>
+<h2 id="adsBlockedCount">0</h2>
+<p>Ads Blocked</p>
+</div>
+<div class="stat-card">
+<div class="stat-icon">⏱</div>
+<h2 id="timeSavedCount">0s</h2>
+<p>Time Saved</p>
+</div>
+</section>
+<!-- Features -->
+<section class="card">
+<div class="toggle-row">
+<div>
+<div class="toggle-title">
+                    Premium Logo
+                </div>
+<div class="toggle-description">
+                    Replace the default YouTube logo
+                </div>
+</div>
+<label class="switch">
+<input checked="" id="logoToggle" type="checkbox"/>
+<span class="slider"></span>
+</label>
+</div>
+</section>
+<!-- Quick Actions -->
+<section class="card">
+<h3 class="section-title">
+            Quick Actions
+        </h3>
+<div class="button-grid">
+<button class="primary-btn" id="refreshTabBtn">
+                🔄 Refresh Tab
+            </button>
+<button class="secondary-btn" id="youtubeBtn">
+                ▶ Open YouTube
+            </button>
+</div>
+</section>
+
+<section class="card developer-card">
+<small>About Dev</small>
+<h2>Vikhyat Pathak</h2>
+<div class="socials">
+<a class="social instagram" href="https://instagram.com/vikhy4t" id="instagram" rel="noopener noreferrer" target="_blank">
+<svg aria-hidden="true" class="social-icon" height="16" viewbox="0 0 24 24" width="16">
+<path d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm8.95 1.25a1.05 1.05 0 1 0 0 2.1a1.05 1.05 0 0 0 0-2.1zM12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6a3 3 0 0 1 0-6z" fill="currentColor"></path>
+</svg>
+<span>Instagram</span>
+</a>
+<a class="social github" href="https://github.com/vikhy4t" id="github" rel="noopener noreferrer" target="_blank">
+<svg aria-hidden="true" class="social-icon" height="16" viewbox="0 0 24 24" width="16">
+<path d="M12 .5A11.5 11.5 0 0 0 .5 12.29c0 5.17 3.35 9.55 8 11.1c.58.1.79-.25.79-.56v-2.17c-3.25.72-3.93-1.4-3.93-1.4c-.53-1.35-1.3-1.71-1.3-1.71c-1.07-.73.08-.72.08-.72c1.18.08 1.8 1.22 1.8 1.22c1.05 1.8 2.76 1.28 3.43.98c.1-.76.41-1.28.74-1.58c-2.59-.29-5.31-1.3-5.31-5.78c0-1.28.46-2.33 1.21-3.15c-.12-.3-.52-1.5.12-3.12c0 0 .99-.32 3.25 1.2A11.2 11.2 0 0 1 12 6.9c.99.01 1.99.13 2.92.38c2.26-1.53 3.25-1.2 3.25-1.2c.64 1.62.24 2.82.12 3.12c.75.82 1.21 1.87 1.21 3.15c0 4.49-2.73 5.49-5.33 5.77c.42.36.79 1.07.79 2.16v3.2c0 .31.21.67.8.56c4.64-1.55 7.99-5.93 7.99-11.1A11.5 11.5 0 0 0 12 .5z" fill="currentColor"></path>
+</svg>
+<span>GitHub</span>
+</a>
+</div>
+</section>
+
+<footer>
+<div>
+            Version <strong>k.r.v.i</strong>
+</div>
+<small>
+            Chrome • Firefox • Edge
+        </small>
+</footer>
+</main>
+<script src="popup.js"></script>
+</body>
+</html>
