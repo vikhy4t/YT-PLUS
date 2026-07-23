@@ -17,7 +17,23 @@ V3](https://img.shields.io/badge/Manifest-V3-blue?style=for-the-badge)
 </div>
 
 ------------------------------------------------------------------------
+---
 
+## 🖼️ Preview
+
+### 🎥 Preview Video
+
+https://github.com/user-attachments/assets/ee2ed323-adb5-461f-9037-2f3e1204b203
+
+### 📸 Screenshot 1
+
+<img width="451" height="723" alt="Image" src="https://github.com/user-attachments/assets/48982a1c-d855-4967-8f46-25ed4ce5bd9c" />
+
+### 📸 Screenshot 2
+
+<img width="447" height="722" alt="Image" src="https://github.com/user-attachments/assets/7af655f2-50ff-413f-ad53-e382e8739298" />
+
+---
 ## ✨ Features
 
 -   Modern popup dashboard
@@ -86,25 +102,6 @@ YT++
 ```
 
 ------------------------------------------------------------------------
-
-
----
-
-## 🖼️ Preview
-
-### 🎥 Preview Video
-
-https://github.com/user-attachments/assets/ee2ed323-adb5-461f-9037-2f3e1204b203
-
-### 📸 Screenshot 1
-
-<img width="451" height="723" alt="Image" src="https://github.com/user-attachments/assets/48982a1c-d855-4967-8f46-25ed4ce5bd9c" />
-
-### 📸 Screenshot 2
-
-<img width="447" height="722" alt="Image" src="https://github.com/user-attachments/assets/7af655f2-50ff-413f-ad53-e382e8739298" />
-
----
 
 ## 🚀 Tech Stack
 
