@@ -9,11 +9,11 @@ A modern, open-source Manifest V3 browser extension that enhances
 YouTube with interface customization, a polished dashboard, logo
 personalization, and quality-of-life improvements.
 
-![Manifest
-V3](https://img.shields.io/badge/Manifest-V3-blue?style=for-the-badge)
+![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue?style=for-the-badge)
 ![Chrome](https://img.shields.io/badge/Chrome-Supported-success?style=for-the-badge)
 ![Firefox](https://img.shields.io/badge/Firefox-Supported-orange?style=for-the-badge)
-![MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Microsoft Edge](https://img.shields.io/badge/Microsoft%20Edge-Supported-0078D7?style=for-the-badge&logo=microsoftedge&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 </div>
 
 ------------------------------------------------------------------------
