@@ -10,7 +10,7 @@ YouTube with interface customization, a polished dashboard, logo
 personalization, and quality-of-life improvements.
 
 
-div align="center">
+
 <img src="https://skillicons.dev/icons?i=js,html,css,vscode,git,github" alt="Tech Icons"/><br><br>
 
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue?style=for-the-badge)
