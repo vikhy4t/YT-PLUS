@@ -38,6 +38,11 @@ V3](https://img.shields.io/badge/Manifest-V3-blue?style=for-the-badge)
 
 # 📦 Installation
 
+### 🎥 INSTALLATION
+
+https://github.com/user-attachments/assets/886b666c-669f-44b2-abad-260692194be6
+
+
 ## 🌐 Google Chrome/EDGE
 
 1.  Clone or download this repository.
