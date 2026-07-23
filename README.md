@@ -9,6 +9,10 @@ A modern, open-source Manifest V3 browser extension that enhances
 YouTube with interface customization, a polished dashboard, logo
 personalization, and quality-of-life improvements.
 
+
+div align="center">
+<img src="https://skillicons.dev/icons?i=js,html,css,vscode,git,github" alt="Tech Icons"/><br><br>
+
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue?style=for-the-badge)
 ![Chrome](https://img.shields.io/badge/Chrome-Supported-success?style=for-the-badge)
 ![Firefox](https://img.shields.io/badge/Firefox-Supported-orange?style=for-the-badge)
