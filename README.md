@@ -123,13 +123,7 @@ YT++
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=js,html,css,vscode,git,github" alt="Tech Icons"/><br><br>
-
-<img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/Manifest-V3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white">
-<img src="https://img.shields.io/badge/Browser-Storage_API-34A853?style=for-the-badge&logo=googlechrome&logoColor=white">
-<img src="https://img.shields.io/badge/MutationObserver-DOM_API-8A2BE2?style=for-the-badge">
+    
 </div>
 
   ------------------------------------------------------------------------------------------------------------------------------
