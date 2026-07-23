@@ -11,13 +11,20 @@ personalization, and quality-of-life improvements.
 
 
 
-<img src="https://skillicons.dev/icons?i=js,html,css,vscode,git,github" alt="Tech Icons"/><br><br>
+
 
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue?style=for-the-badge)
 ![Chrome](https://img.shields.io/badge/Chrome-Supported-success?style=for-the-badge)
 ![Firefox](https://img.shields.io/badge/Firefox-Supported-orange?style=for-the-badge)
 ![Edge](https://img.shields.io/badge/%20Edge-Supported-0078D7?style=for-the-badge&logo=microsoftedge&logoColor=white)
 ![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+<img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/Manifest-V3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white">
+<img src="https://img.shields.io/badge/Browser-Storage_API-34A853?style=for-the-badge&logo=googlechrome&logoColor=white">
+<img src="https://img.shields.io/badge/MutationObserver-DOM_API-8A2BE2?style=for-the-badge">
 </div>
 
 ------------------------------------------------------------------------
